@@ -22,7 +22,7 @@ The redesign emphasizes:
 
 ## 🚀 Live Demo
 
-🔗 https://your-live-demo-link
+🔗 [https://your-live-demo-link](https://adwaith-753.github.io/Website_Template/)
 
 ---
 
