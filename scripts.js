@@ -138,3 +138,25 @@ dropdowns.forEach((drop) => {
     }
   });
 });
+
+// PRELOADER
+
+window.addEventListener("load", () => {
+  const preloader = document.getElementById("preloader");
+
+  if (preloader) {
+    setTimeout(() => {
+      preloader.classList.add("hide");
+    }, 700);
+  }
+});
+
+// PRELOADER
+
+window.addEventListener("load", () => {
+  const preloader = document.getElementById("preloader");
+
+  setTimeout(() => {
+    preloader.classList.add("hide");
+  }, 1200);
+});
