@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-<!-- NAVBAR  -->
+    <!-- NAVBAR  -->
     <nav class="navbar">
       <div class="nav-container">
         <a href="index.html" class="logo"> Rio<span>Labz</span> </a>
@@ -46,7 +46,23 @@
       </div>
     </nav>
 
-<!-- SERVICES HERO -->
+    <!-- PAGE HEADER -->
+
+    <section class="page-header">
+      <div class="container">
+        <h1>Services</h1>
+
+        <p>
+          <a href="index.html">Home</a>
+
+          <span>/</span>
+
+          Services
+        </p>
+      </div>
+    </section>
+
+    <!-- SERVICES HERO -->
 
     <section class="hero" id="home">
       <div class="container hero-container">
@@ -95,7 +111,88 @@
       </div>
     </section>
 
-<!-- DEVELOPMENT PROCESS -->
+    <!-- OUR SERVICES -->
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag"> What We Offer </span>
+
+          <h2 class="section-title">Our Professional Services</h2>
+
+          <p class="section-text">
+            We provide end-to-end digital solutions that help businesses
+            innovate, scale, and succeed in today's competitive market.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+
+            <h3>Web Development</h3>
+
+            <p>Modern, responsive websites and custom web applications.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+
+            <h3>Mobile Apps</h3>
+
+            <p>Native and cross-platform Android & iOS applications.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-cloud"></i>
+            </div>
+
+            <h3>Cloud Solutions</h3>
+
+            <p>
+              Secure cloud migration, deployment and infrastructure services.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+
+            <h3>UI / UX Design</h3>
+
+            <p>Beautiful user interfaces with exceptional user experiences.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+            <h3>Digital Marketing</h3>
+
+            <p>SEO, social media marketing and growth strategies.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+
+            <h3>Cyber Security</h3>
+
+            <p>Protect your applications and business with secure solutions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVELOPMENT PROCESS -->
 
     <section class="about" id="services">
       <div class="container">
@@ -169,7 +266,7 @@
       </div>
     </section>
 
-<!-- TECHNOLOGIES -->
+    <!-- TECHNOLOGIES -->
 
     <section class="portfolio" id="portfolio">
       <div class="container">
@@ -182,44 +279,68 @@
         <div class="portfolio-grid">
           <div class="project-card">
             <div class="project-content">
+              <i class="fa-brands fa-react tech-icon"></i>
+
               <h3>React</h3>
+
+              <p>Frontend Development</p>
             </div>
           </div>
 
           <div class="project-card">
             <div class="project-content">
+              <i class="fa-brands fa-node-js tech-icon"></i>
+
               <h3>Node.js</h3>
+
+              <p>Backend Runtime</p>
             </div>
           </div>
 
           <div class="project-card">
             <div class="project-content">
+              <i class="fa-brands fa-laravel tech-icon"></i>
+
               <h3>Laravel</h3>
+
+              <p>PHP Framework</p>
             </div>
           </div>
 
           <div class="project-card">
             <div class="project-content">
+              <i class="fa-brands fa-flutter tech-icon"></i>
+
               <h3>Flutter</h3>
+
+              <p>Cross Platform Apps</p>
             </div>
           </div>
 
           <div class="project-card">
             <div class="project-content">
+              <i class="fa-brands fa-aws tech-icon"></i>
+
               <h3>AWS</h3>
+
+              <p>Cloud Platform</p>
             </div>
           </div>
 
           <div class="project-card">
             <div class="project-content">
+              <i class="fa-brands fa-docker tech-icon"></i>
+
               <h3>Docker</h3>
+
+              <p>Container Platform</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-   <!-- CALL TO ACTION -->
+    <!-- CALL TO ACTION -->
 
     <section class="cta">
       <div class="container">
@@ -292,6 +413,27 @@
             <textarea rows="6" placeholder="Your Message"></textarea>
 
             <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+
+            <div class="contact-features">
+              <div>
+                <i class="fa-solid fa-circle-check"></i>
+
+                Free Consultation
+              </div>
+
+              <div>
+                <i class="fa-solid fa-clock"></i>
+
+                Response within 24 Hours
+              </div>
+
+              <div>
+                <i class="fa-solid fa-lock"></i>
+
+                100% Secure Communication
+              </div>
+            </div>
           </form>
         </div>
       </div>
@@ -361,6 +503,21 @@
             <p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
 
             <p><i class="fa-solid fa-envelope"></i> hello@riolabz.com</p>
+          </div>
+
+          <div>
+            <h3>Stay Connected</h3>
+
+            <p>
+              Subscribe to receive updates about our latest projects and
+              technology insights.
+            </p>
+
+            <form class="newsletter-form">
+              <input type="email" placeholder="Enter your email" />
+
+              <button type="submit">Subscribe</button>
+            </form>
           </div>
         </div>
 
