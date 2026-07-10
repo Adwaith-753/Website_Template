@@ -38,7 +38,6 @@ section {
   width: 100%;
 }
 
-
 :root {
   --primary: #2563eb;
 
@@ -715,7 +714,7 @@ section {
   display: inline-block;
 }
 
- /* STATS RESPONSIVE */
+/* STATS RESPONSIVE */
 
 @media (max-width: 992px) {
   .stats-container {
@@ -1358,7 +1357,7 @@ section {
 .footer-grid {
   display: grid;
 
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
 
   gap: 50px;
 
@@ -1726,4 +1725,302 @@ button {
 input,
 textarea {
   font-family: inherit;
+}
+
+/* WHY CHOOSE US */
+
+.why-choose {
+  padding: 120px 0;
+
+  background: #f8fafc;
+}
+
+.choose-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 30px;
+
+  margin-top: 60px;
+}
+
+.choose-card {
+  background: #fff;
+
+  padding: 35px 25px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+
+  transition: 0.3s;
+}
+
+.choose-card:hover {
+  transform: translateY(-10px);
+}
+
+.choose-card i {
+  font-size: 42px;
+
+  color: var(--primary);
+
+  margin-bottom: 20px;
+}
+
+.choose-card h3 {
+  margin-bottom: 15px;
+}
+
+.choose-card p {
+  color: #6b7280;
+
+  line-height: 1.7;
+}
+
+@media (max-width: 992px) {
+  .choose-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .choose-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* TECHNOLOGIES */
+
+.tech-icon {
+  font-size: 55px;
+
+  color: var(--primary);
+
+  margin-bottom: 20px;
+
+  display: block;
+}
+
+.project-card .project-content {
+  text-align: center;
+
+  padding: 40px 25px;
+}
+
+.project-card .project-content p {
+  margin-top: 12px;
+
+  color: #6b7280;
+}
+
+/* PAGE HEADER */
+
+.page-header {
+  margin-top: 90px;
+
+  padding: 60px 0;
+
+  background: #f8fafc;
+
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 42px;
+
+  margin-bottom: 12px;
+}
+
+.page-header p {
+  color: #6b7280;
+}
+
+.page-header a {
+  color: var(--primary);
+
+  font-weight: 600;
+}
+
+.page-header span {
+  margin: 0 10px;
+
+  color: #9ca3af;
+}
+
+/* CONTACT FEATURES */
+
+.contact-features {
+  margin-top: 25px;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+
+.contact-features div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  font-size: 15px;
+
+  color: #6b7280;
+}
+
+.contact-features i {
+  color: var(--primary);
+}
+
+/* NEWSLETTER */
+
+.newsletter-form {
+  margin-top: 20px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.newsletter-form input {
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  outline: none;
+}
+
+.newsletter-form button {
+  padding: 14px;
+
+  border: none;
+
+  background: var(--primary);
+
+  color: #fff;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+  background: #1d4ed8;
+}
+
+/* PREMIUM CARD HOVER */
+
+.service-card,
+.project-card,
+.stat-card,
+.choose-card,
+.info-box {
+  transition: all 0.35s ease;
+}
+
+.service-card:hover,
+.project-card:hover,
+.stat-card:hover,
+.choose-card:hover,
+.info-box:hover {
+  transform: translateY(-10px);
+
+  box-shadow: 0 25px 60px rgba(37, 99, 235, 0.15);
+}
+
+/* BUTTON IMPROVEMENT */
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 18px 40px rgba(37, 99, 235, 0.25);
+}
+
+/* IMAGE EFFECT */
+
+.hero-image img,
+.about-image img,
+.project-card img {
+  transition: 0.4s;
+}
+
+.hero-image img:hover,
+.about-image img:hover,
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+/* NAVBAR */
+
+.navbar {
+  backdrop-filter: blur(18px);
+
+  -webkit-backdrop-filter: blur(18px);
+}
+
+/* SECTION TITLE */
+
+.section-title {
+  line-height: 1.2;
+
+  letter-spacing: -1px;
+}
+
+/* INPUT EFFECT */
+
+.contact-form input,
+.contact-form textarea {
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  transform: translateY(-2px);
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2563eb;
+
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1d4ed8;
+}
+
+/* GLOBAL ANIMATION */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
 }
